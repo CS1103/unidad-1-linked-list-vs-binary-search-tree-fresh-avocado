@@ -6,19 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/BinarySearchTree.h
 Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/Location.h
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/LinkedList.h
 Location.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
-
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/Location.h
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/Location.h
+fstream
+-
 string
 -
 
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/main.cpp
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/Location.h
+string
+-
+ostream
+-
+iostream
+-
+
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/main.cpp
 iostream
 -
 sstream
@@ -29,8 +37,12 @@ vector
 -
 fstream
 -
+chrono
+-
+ctime
+-
 LinkedList.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/LinkedList.h
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/LinkedList.h
 BinarySearchTree.h
-/home/ruben/CLionProjects/LinkedListVsBinarySearchTree/BinarySearchTree.h
+/Users/gabrielspranger/Desktop/GitHub/BinarySearchTree/binarysearchtree/BinarySearchTree.h
 

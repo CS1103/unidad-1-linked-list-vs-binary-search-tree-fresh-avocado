@@ -6,30 +6,39 @@
 #define LINKEDLISTVSBINARYTREE_LINKEDLIST_H
 #include "Location.h"
 
-namespace UTEC {
+#include <fstream>
+#include <string>
 
-    struct Node {
-        Location data;
-        Node* next;
-    };
+using namespace std;
 
-    class LinkedList {
-        Node* head;
-        Node* tail;
-    public:
-        LinkedList();
-        ~LinkedList();
-        int size();
-        bool is_empty();
-        Node* get_head();
-        Node* get_tail();
-        void add_head(const Location& data);
-        void add_tail(const Location& data);
-        void print();
-        void insert(Node* position, const Location& data);
-        Node* search(std::string position_id);
-    };
-    void load_locations(LinkedList* linked_list, std::string file_name);
-}
+const int LOCATION_PROPERTIES = 7;
+
+struct Node {
+    Location data;
+    Node* next;
+
+    explicit Node(const Location& data): data{data}, next{nullptr} {}
+};
+
+class LinkedList {
+    Node* head;
+    Node* tail;
+public:
+    LinkedList(): head{nullptr}, tail{nullptr} {};
+    ~LinkedList();
+    int size();
+    bool is_empty();
+    Node* get_head();
+    Node* get_tail();
+    void add_head(const Location& data);
+    void add_tail(const Location& data);
+    void remove_tail();
+    void print();
+    void insert(int pos, const Location& data);
+    Node* search(std::string position_id);
+};
+
+void load_ll_locations(LinkedList* linked_list, string filename);
+
 
 #endif //LINKEDLISTVSBINARYTREE_LINKEDLIST_H
